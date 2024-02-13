@@ -58,6 +58,7 @@ img.imgLeft {
   background-color: #425a04;
 }
 .goback {
+  z-index: 1;
   position: fixed;
   bottom: 15px;
   right: 15px;
@@ -66,13 +67,27 @@ img.imgLeft {
   background-color: #a02571;
   display: inline-block;
 }
-.gobac1 {
+.goback1 {
+  z-index: 1;
   position: fixed;
-  bottom: 15px;
-  right: 300px;
+  bottom: 80px;
+  right: 15px;
   width: 40px;
   height: 40px;
-  background-color: #000000;
+  background-color: #a7f50a;
+  display: inline-block;
+  border-radius: 7%;
+}
+.goback2 {
+  border-radius: 7%;
+  z-index: 1;
+  position: fixed;
+  bottom: 150px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+  background-color: #a53c3c;
+  display: inline-block;
 }
 
 body {
